@@ -1,0 +1,14 @@
+/*fissare lo slideshow al centro nonostante il ridimensionamento*/
+.slideshow-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.mySlides img{
+  border-radius: 30px;
+  width: 100%;
+  height: 100%;
+}
